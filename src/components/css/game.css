@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.game_sec {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assests/play.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ysabeau SC', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top {
+    display: none;
+}
+.top h1 {
+    color: #FFF;
+}
+.quiz {
+    width: fit-content;
+}
+
+.ques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0.897);
+    border-radius: 70px;
+    color: #e994fb;
+    font-size: 25px;
+    padding: 0 25px;
+    text-align: center;
+    box-shadow: 0 0 8px #e994fb;
+    animation: slide-in-blurred-top 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+@keyframes slide-in-blurred-top {
+    0% {
+        transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        transform-origin: 50% 0%;
+        filter: blur(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) scaleY(1) scaleX(1);
+        transform-origin: 50% 50%;
+        filter: blur(0);
+        opacity: 1;
+    }
+  }
+  
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+.options button {
+    width: 230px;
+    max-width: 270px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.897);
+    border-radius: 50px;
+    margin: 20px 0;
+    color:aqua;
+    padding: 0 22px;
+    text-align: center;
+    box-shadow: 0 0 8px aqua;
+    font-size: 17px;
+    animation: slide-in-blurred-bottom 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+@keyframes slide-in-blurred-bottom {
+    0% {
+        transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+        transform-origin: 50% 100%;
+        filter: blur(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) scaleY(1) scaleX(1);
+        transform-origin: 50% 50%;
+        filter: blur(0);
+        opacity: 1;
+    }
+  }
+
+
+.options button:hover {
+    
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#correct {
+    background-color: #0bf7718b;
+}
+#incorrect {
+    background-color: #fe060681;
+}
+ 
+
+
+.next {
+    margin-top: 20px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: aliceblue;
+    padding: 5px 0;
+}
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.score {
+    color: #FFF;
+    background-color: black;
+    padding: 5px;
+}
+.load {
+    color: #FFF;
+}
+button.green {
+    background-color: #0bf7718b;
+  }
+button.green:hover {
+    background-color: #0bf7718b;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .game_sec {
+        background-image: url('./assests/bg7.jpg');
+    }
+    .ques {
+        width: 300px;
+        height: 100px;
+        margin: auto ;
+        border-radius: 40px;
+        font-size: 15px;
+    }
+    .options {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .options button {
+        margin: 10px auto;
+        width: 200px;
+        height: 50px;
+        font-size: 13px;
+    }
+  }

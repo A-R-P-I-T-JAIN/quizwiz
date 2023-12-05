@@ -1,0 +1,89 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+      "correct_answer": "Richard Branson",
+      "incorrect_answers": ["Alan Sugar", "Donald Trump", "Bill Gates"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the world&#039;s most expensive spice by weight?",
+      "correct_answer": "Saffron",
+      "incorrect_answers": ["Cinnamon", "Cardamom", "Vanilla"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following is not another name for the eggplant?",
+      "correct_answer": "Potimarron",
+      "incorrect_answers": ["Brinjal", "Guinea Squash", "Melongene"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the destination of the missing flight MH370?",
+      "correct_answer": "Beijing",
+      "incorrect_answers": ["Kuala Lumpur", "Singapore", "Tokyo"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On average, Americans consume 100 pounds of what per second?",
+      "correct_answer": "Chocolate",
+      "incorrect_answers": ["Potatoes", "Donuts", "Cocaine"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?",
+      "correct_answer": "Hewlett-Packard",
+      "incorrect_answers": ["Toshiba", "Asus", "Dell"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the original name of the search engine &quot;Google&quot;?",
+      "correct_answer": "BackRub",
+      "incorrect_answers": ["CatMassage", "SearchPro", "Netscape Navigator"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Where is Apple Inc. headquartered?",
+      "correct_answer": "Cupertino, California",
+      "incorrect_answers": [
+        "Redwood City, California",
+        "Redmond, Washington",
+        "Santa Monica, CA"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?",
+      "correct_answer": "M3",
+      "incorrect_answers": ["Colt 9mm", "Thompson", "MAC-10"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many notes are there on a standard grand piano?",
+      "correct_answer": "88",
+      "incorrect_answers": ["98", "108", "78"]
+    }
+  ]
+}
